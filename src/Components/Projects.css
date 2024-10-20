@@ -1,0 +1,75 @@
+.showroom-section {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.showroom-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping of items */
+  justify-content: center; /* Center the content */
+  gap: 20px; /* Space between items */
+}
+
+.showroom-box {
+  position: relative;
+  background-size: cover;
+  background-position: bottom;
+  width: calc(33.33% - 20px); /* Adjust for 3 columns with some gap */
+  height: 200px; /* Adjust height as needed */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.showroom-box:hover {
+  transform: scale(1.05);
+}
+
+.showroom-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* background: rgba(255, 255, 255, 0.8); */
+  color: rgb(255, 251, 249);
+  font-weight: bold;
+  padding: 15px; /* Add padding around the info box */
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center align the text */
+  row-gap: 10px; /* Add space between items */
+}
+
+.visit-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.visit-button:hover {
+  background-color: #0056b3;
+}
+
+.titles {
+  display: none; /* Hide titles by default */
+}
+
+.showroom-box:hover .titles {
+  display: flex; /* Show titles on hover */
+  position: absolute;
+  top: 10px; /* Adjust position as needed */
+  left: 10px; /* Adjust position as needed */
+  background: rgba(0, 0, 0, 0.5); /* Dark background for visibility */
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.title {
+  margin: 0 5px;
+}

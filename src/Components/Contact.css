@@ -1,0 +1,63 @@
+.contact-us {
+  max-width: 1200px; /* Set a max width for the entire section */
+  margin: auto; /* Center the contact section */
+  padding: 20px;
+  background-color: #f9f9f9; /* Light background color */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.contact-us h2 {
+  text-align: center; /* Center the heading */
+  color: #333; /* Dark color for text */
+}
+
+.contact-container {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space between the two columns */
+  gap: 20px; /* Space between the columns */
+}
+
+.form-container,
+.map-container {
+  flex: 1; /* Allow both sections to grow equally */
+  padding: 20px; /* Padding inside boxes */
+  background-color: #fff; /* White background for boxes */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for boxes */
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column; /* Stack form elements vertically */
+  gap: 10px; /* Spacing between form elements */
+}
+
+.contact-form label {
+  font-weight: bold; /* Bold label text */
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px; /* Padding inside inputs */
+  border: 1px solid #ccc; /* Border for inputs */
+  border-radius: 4px; /* Rounded corners for inputs */
+}
+
+.contact-form button {
+  padding: 10px; /* Padding for button */
+  background-color: #007bff; /* Primary button color */
+  color: #fff; /* Button text color */
+  border: none; /* Remove default border */
+  border-radius: 4px; /* Rounded corners for button */
+  cursor: pointer; /* Pointer cursor for button */
+}
+
+.contact-form button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+.map-container h3 {
+  text-align: center; /* Center map title */
+  margin-bottom: 10px; /* Space below the title */
+}

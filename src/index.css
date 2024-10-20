@@ -1,0 +1,28 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif, Arial, Helvetica, sans-serif;
+}
+body {
+  min-height: 100vh;
+  background-color: rgb(226, 229, 231);
+}
+a {
+  text-decoration: none;
+}
+.app {
+  width: 90%;
+  margin: auto;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}

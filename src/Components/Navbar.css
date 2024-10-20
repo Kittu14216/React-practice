@@ -1,0 +1,75 @@
+.navbar .Project-title {
+  color: red;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .logo {
+  width: 150px;
+}
+.navbar ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  color: rgb(147, 84, 1);
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbar button {
+  background: transparent;
+  font-size: 16px;
+  color: rgb(213, 85, 0);
+  border: 1px solid red;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 5px;
+  transition: 0.6s;
+}
+
+.navbar button:hover {
+  background: rgba(235, 233, 233, 0.893);
+  border: none;
+  color: black;
+}
+
+.navbar button:active {
+  color: rgb(213, 85, 0);
+  border: 1px solid red;
+  border-radius: 10px;
+}
+
+.navbar li {
+  cursor: pointer;
+}
+.navbar-menu .active {
+  padding-bottom: 1px;
+  border-bottom: 2px solid green;
+}
+
+.navbar-menu a {
+  text-decoration: none; /* Removes the underline */
+  color: inherit; /* Ensures the link color matches the parent element */
+}
+
+.navbar-search-icon {
+  position: relative;
+}
+.navbar-search-icon .dot {
+  position: absolute;
+  width: 8px;
+  height: 7px;
+  background-color: red;
+  top: -8%;
+  right: -8%;
+  border-radius: 5px;
+}

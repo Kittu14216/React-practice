@@ -1,0 +1,43 @@
+.header {
+  background: url("/public/carheader.jpg") no-repeat;
+
+  width: 100%;
+  height: 75vh; /* vh is relative to the viewport height */
+  background-size: cover; /* Ensures the image covers the area */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  margin: 10px auto; /* Centers the element horizontally */
+  border-radius: 10px;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  align-items: start;
+  gap: 1.5vw;
+  max-width: 50%;
+  bottom: 20%;
+  left: 10%;
+  animation: fadeIn 4s;
+}
+.header-content h2 {
+  font-weight: bold;
+  color: rgb(230, 128, 3);
+  font-size: max(4rem);
+}
+
+.header-content p {
+  font-size: 1rem;
+  color: rgb(225, 86, 5);
+  font-weight: bold;
+}
+.header-content button {
+  border: none;
+  color: rgb(135, 59, 59);
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 8px 15px;
+  background: white;
+  border-radius: 50px;
+}

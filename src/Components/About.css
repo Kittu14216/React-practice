@@ -1,0 +1,38 @@
+.about-us-section {
+  padding: 20px;
+  max-width: 100%; /* Max width for better readability */
+  margin: auto; /* Center the section */
+  background-color: #e3dede; /* Light background color */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.about-us-section h2 {
+  text-align: center; /* Center the heading */
+  color: #333; /* Dark color for text */
+  margin-bottom: 20px;
+  color: red;
+}
+.about-us-section h2:hover {
+  color: rgb(123, 65, 65);
+}
+
+.about-us-section p {
+  text-align: center; /* Center the paragraph */
+  margin-bottom: 20px; /* Spacing below the paragraph */
+  font-size: 1.1em; /* Slightly larger font size */
+  font-weight: bold;
+  color: #190707; /* Grey color for paragraph */
+}
+
+.about-us-list {
+  list-style-type: none; /* Remove default bullet points */
+  padding: 0; /* Remove default padding */
+}
+
+.about-us-list li {
+  margin: 10px 0; /* Spacing between list items */
+  font-size: 1em; /* Standard font size */
+  color: #333; /* Dark color for list items */
+  text-align: center;
+}

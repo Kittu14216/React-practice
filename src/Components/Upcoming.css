@@ -1,0 +1,32 @@
+.showroom-section {
+  padding: 20px;
+  text-align: center;
+}
+
+.upcoming-showroom-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr); /* 2 columns layout */
+  gap: 20px; /* Space between columns */
+  margin-top: 20px;
+}
+
+.upcoming-showroom {
+  display: flex; /* Flexbox to align image and info */
+  align-items: center; /* Center vertically */
+  border: 1px solid #ccc; /* Optional border */
+  border-radius: 5px; /* Rounded corners */
+  overflow: hidden; /* Hide overflow */
+  background-color: #f9f9f9; /* Light background color */
+}
+
+.upcoming-image {
+  width: 50%; /* Adjust width for image */
+  height: 200px; /* Set a fixed height for the image */
+  background-size: cover; /* Cover the entire area */
+  background-position: center; /* Center the image */
+}
+
+.upcoming-info {
+  padding: 20px; /* Padding for text */
+  text-align: left; /* Align text to the left */
+}
